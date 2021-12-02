@@ -1,0 +1,54 @@
+/*
+ * Salam super \m/
+ */
+body,div,img,p{padding:0;margin:0;}
+body{overflow:hidden;background:#fff;}
+#gallery {
+    height: 800px;
+    position: relative;
+}
+/*
+#gallery .polaroid:nth-child(1){
+    transform: scale(.9);
+}
+#gallery .polaroid:nth-child(2){
+    transform: scale(.85);
+}
+#gallery .polaroid:nth-child(3){
+    transform: scale(.8);
+}
+#gallery .polaroid:nth-child(4){
+    transform: scale(.75);
+}
+#gallery .polaroid:nth-child(5){
+    transform: scale(.7);
+}
+#gallery .polaroid:nth-child(6){
+    transform: scale(.65);
+}
+#gallery .polaroid:nth-child(7){
+    transform: scale(.6);
+}
+*/
+header {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+header svg {
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.polaroid{width:368px;height:auto;position:absolute; }
+.polaroid img{width:335px;height:auto; margin:25px 0 0 15px;}
+img.lazy {
+    width: 368px;
+    height: auto;
+    display: block;
+}
